@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+button {
+    width: 105x;
+    height: 305x;
+    font-family: Fasthand;
+    font-size: 20px;
+    background-color: #404040;
+    color: white;
+}
+
+.add {
+    margin-top: 5%;
+}
+
+input {
+    margin-left: 35%;
+    font-family: Fasthand;
+    font-size: 20px;
+    text-align: center;
+    background-color: #CC00CC;
+
+}
+
+input:hover {
+    background-color: #4C0099;
+    transition: 2s;
+}
+
+div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Fasthand;
+    color: #CCFFE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+img {
+    width: 40px;
+}
+
+.choose {
+    margin: 0;
+}
+
+select {
+    margin-left: 35%;
+    font-family: Fasthand;
+    font-size: 15px;
+    background-color: #CC0066;
+}
+
+.random {
+    margin-left: 46%;
+}
+
+.first {
+    position: fixed;
+    margin-left: 54%;
+    margin-top: 3%;
+    z-index: 3;
+}
+
+.second {
+    position: fixed;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+.third {
+    position: fixed;
+    margin-left: 48%;
+    margin-top: -2%;
+}
+
+.four {
+    position: fixed;
+    margin-left: 65%;
+    margin-top: -2%;
+}
+
+nav {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: "Tilt Prism", cursive;
+    font-size: 25px;
+}
+
+.left {
+    margin-left: ;
+    border: solid red;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}

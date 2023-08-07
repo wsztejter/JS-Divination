@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/09/08/28/crystal-ball-4043805_960_720.jpg');
+    background-size: cover;
+}
+
+h1 {
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    size: 500 px;
+    color: #DAA520;
+    font-family: "Tilt Prism", cursive;
+    font-size: 70px;
+
+}
+
+nav {
+    margin-top: 100px;
+    margin-left: 20px;
+    gap: 15px;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/01/10/33/witchs-house-1635770_960_720.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 50px;
+}
